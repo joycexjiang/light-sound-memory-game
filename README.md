@@ -9,7 +9,7 @@ Submitted by: **Joyce Jiang**
 
 Time spent: **2** hours spent in total
 
-Link to project: (https://light-small-digit.glitch.me)
+Link to project: (https://seemly-viridian-sailor.glitch.me/)
 
 ## Required Functionality
 
@@ -37,7 +37,9 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+-  [x] Added functionality to the game by creating a phone number version, using a CSS design by Sarah L. Fossheim
+-  [x] Used Javascript to create typing effect, and to showcase the secret pattern after the game is over
+-  [x] Two column sections of the web page for a more cleaner look
 
 ## Video Walkthrough (GIF)
 
