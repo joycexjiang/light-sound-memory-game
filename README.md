@@ -44,7 +44,7 @@ The following **additional** features are implemented:
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 <img src="https://media3.giphy.com/media/3gkA8TzHiHccoqX6vq/giphy.gif?cid=790b7611ae9cfce1e797af2a77e27501150f7f3d2be3f417&rid=giphy.gif&ct=g">
 <br>
-<img src="https://media4.giphy.com/media/gVwXbzAFbFWeGP8nvN/giphy.gif?cid=790b76115249fe04a5b7568622c6c960cdbcfb2a8551cd57&rid=giphy.gif&ct=g" width=100;>
+<img src="https://media4.giphy.com/media/gVwXbzAFbFWeGP8nvN/giphy.gif?cid=790b76115249fe04a5b7568622c6c960cdbcfb2a8551cd57&rid=giphy.gif&ct=g" width=100%;>
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
