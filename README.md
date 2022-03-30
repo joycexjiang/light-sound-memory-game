@@ -47,10 +47,8 @@ The following **additional** features are implemented:
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 <a href="https://phone-number-memory-game-final.glitch.me/"><img src="https://media2.giphy.com/media/Dty0QQXePPNm52WLMT/giphy.gif?cid=790b7611bab07eac6d82ab4bc3e739d771aa037e22a41274&rid=giphy.gif&ct=g" width=100%;></a> phone call memory game: three strikes
 <br>
-<a href="https://phone-number-memory-game-final.glitch.me/"><img src="https://media2.giphy.com/media/lo5lgFbWVhPwQuqPBQ/giphy.gif?cid=790b761181e1caed5536be995e4ccf157ca6fed23fbf6034&rid=giphy.gif&ct=g" width=100%";></a>
+<a href="https://phone-number-memory-game-final.glitch.me/"><img src="https://media2.giphy.com/media/lo5lgFbWVhPwQuqPBQ/giphy.gif?cid=790b761181e1caed5536be995e4ccf157ca6fed23fbf6034&rid=giphy.gif&ct=g" width=100%;></a>
 <br>
-
-
 <a href="https://light-small-digit.glitch.me/"><img src="https://media4.giphy.com/media/gVwXbzAFbFWeGP8nvN/giphy.gif?cid=790b76115249fe04a5b7568622c6c960cdbcfb2a8551cd57&rid=giphy.gif&ct=g" width=100%;> </a> version 1 game
 
 ## Reflection Questions
