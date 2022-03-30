@@ -45,7 +45,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-<a href="https://phone-number-memory-game-final.glitch.me/"><img src="https://media2.giphy.com/media/Dty0QQXePPNm52WLMT/giphy.gif?cid=790b7611bab07eac6d82ab4bc3e739d771aa037e22a41274&rid=giphy.gif&ct=g" width=100%;></a> phone call memory game: showing three strikes
+<a href="https://phone-number-memory-game-final.glitch.me/"><img src="https://media2.giphy.com/media/Dty0QQXePPNm52WLMT/giphy.gif?cid=790b7611bab07eac6d82ab4bc3e739d771aa037e22a41274&rid=giphy.gif&ct=g" width=100%;></a> phone call memory game: sped up rounds 
 <br>
 <a href="https://phone-number-memory-game-final.glitch.me/"><img src="https://media4.giphy.com/media/lbzIZL2wgkK8BcMnHm/giphy.gif?cid=790b76119263ccb2051341148c0e1b9c3e0d155e7e11fb10&rid=giphy.gif&ct=g" width=100%;></a> shows round 10 after user wins
 <br>
