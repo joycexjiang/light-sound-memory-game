@@ -45,7 +45,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-<a href="https://seemly-viridian-sailor.glitch.me/"><img src="https://media3.giphy.com/media/3gkA8TzHiHccoqX6vq/giphy.gif?cid=790b7611ae9cfce1e797af2a77e27501150f7f3d2be3f417&rid=giphy.gif&ct=g" width=100%;></a> phone call memory game: three strikes
+<a href="https://phone-number-memory-game-final.glitch.me/"><img src="https://media2.giphy.com/media/Dty0QQXePPNm52WLMT/giphy.gif?cid=790b7611bab07eac6d82ab4bc3e739d771aa037e22a41274&rid=giphy.gif&ct=g" width=100%;></a> phone call memory game: three strikes
 <br>
 <a href="https://light-small-digit.glitch.me/"><img src="https://media4.giphy.com/media/gVwXbzAFbFWeGP8nvN/giphy.gif?cid=790b76115249fe04a5b7568622c6c960cdbcfb2a8551cd57&rid=giphy.gif&ct=g" width=100%;> </a> version 1 game
 
