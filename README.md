@@ -7,9 +7,9 @@ this game will test your memory with both auditory and visual segments (codepath
 
 Submitted by: **Joyce Jiang**
 
-Time spent: **2** hours spent in total
+Time spent: **15** hours spent in total
 
-Link to project: (https://seemly-viridian-sailor.glitch.me/)
+Link to project: (https://phone-number-memory-game-final.glitch.me/)
 
 ## Required Functionality
 
@@ -37,9 +37,10 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
--  [x] Added functionality to the game by creating a phone number version, using a CSS design by Sarah L. Fossheim
--  [x] Used Javascript to create typing effect, and to showcase the secret pattern after the game is over
--  [x] Two column sections of the web page for a more cleaner look
+-  [x] Added functionality to the game by creating a phone number version, using a CSS glassmorphism design and experimenting with box shadows.
+-  [x] Used Javascript to create typing effect, and to showcase the secret pattern after the game is over.
+-  [x] Created a modal popup box for instructions that is interactive in opening and closing the popup.
+-  [x] Customized start/stop button.
 
 ## Video Walkthrough (GIF)
 
