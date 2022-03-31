@@ -7,7 +7,7 @@ this game will test your memory with both auditory and visual segments (codepath
 
 Submitted by: **Joyce Jiang**
 
-Time spent: **15** hours spent in total
+Time spent: **40** hours spent in total
 
 Link to project: (https://phone-number-memory-game-final.glitch.me/)
 
