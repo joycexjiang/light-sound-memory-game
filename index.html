@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital@1&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Aldrich&&family=Epilogue:wght@500&family=Source+Code+Pro:wght@400&family=VT323&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital@1&family=Orbitron:wght@600&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
-    
-    
-    <script src="https://static.cargo.site/scripts/loader.js" data-name="eyeroll"></script>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Aldrich&&family=Epilogue:wght@500&family=Source+Code+Pro:wght@400&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital@1&family=Orbitron:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap"
+      rel="stylesheet"
+    />
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
@@ -24,16 +34,15 @@
     -->
 
     <title>phone number: light and sound memory game</title>
-    
 
     <!-- Meta tags for SEO and social sharing -->
     <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
-    <meta
-      name="description"
-      content="Light and Sound Memory Game"
-    />
+    <meta name="description" content="Light and Sound Memory Game" />
     <meta name="robots" content="index,follow" />
-    <meta property="og:title" content="light and sound memory game - Joyce Jiang (codepath)" />
+    <meta
+      property="og:title"
+      content="light and sound memory game - Joyce Jiang (codepath)"
+    />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
     <meta
@@ -65,84 +74,194 @@
     <div class="wrapper">
       <div class="content" role="main">
         <!-- This is the start of content for our page -->
-        <h1 id="bubble">phone number memory game</h1>
-        
-        
-        
-        <div class="row">
-          <div class="column">
-            <p style="text-align:left;">
-            inspired by <a href="https://pin.it/7oZTzD9">old landphone styles and the cyber digital humanistic aesthetic</a>, this game is a
-            version of the <a href="https://www.youtube.com/watch?v=vLi1qnRmpe4">light and sound memory game.</a> this game will test your memory with both auditory and visual segmants.
-            to play, press start and repeat back the pattern! 
-              <br>
-          </p>
-            <p>
-              <i>best viewed on desktop</i>
-            </p>
-            
-            <p>
-              <a href="https://light-small-digit.glitch.me/"><b>v.1</b></a>
-            </p>
-          
-          <button id="startBtn" onclick="startGame()">Start</button>
-          
-          <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
-            
-          </div>
-          <div class="column1">
-            <div class="macintosh" aria-label="1984 Macintosh illustration">
-  
+
+        <div class="macintosh">
           <div class="monitor">
-    <div class="monitor-inner">
-      <div class="screen-cutout">
-        
-        <div class="screen">
-          <p id="pattern">123-456-7890</p>
-        </div>
-      </div>
-      <div class="logo">
-        <p>🏳️‍🌈 Design by <a href="https://fossheim.io/writing/posts/css-macintosh/">Sarah L. Fossheim</a></p>
-      </div>
-      
-        <div id="gameButtonArea">
-            <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">1</button>
-            <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">2 </button>
-            <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">3</button>
-            <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">4</button>
-            <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">5</button>
-            <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()">6</button>
-            <button id="button7" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()">7</button>
-            <button id="button8" onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone()">8 </button>
-            <button id="button9" onclick="guess(9)" onmousedown="startTone(9)" onmouseup="stopTone()">9 </button>
-            <button id="button10" onclick="guess(10)" onmousedown="startTone(10)" onmouseup="stopTone()">* </button>
-            <button id="button0" onclick="guess(0)" onmousedown="startTone(11)" onmouseup="stopTone()">0 </button>
-            <button id="button12" onclick="guess(12)" onmousedown="startTone(12)" onmouseup="stopTone()">#</button>
+            <div class="screen">
+              <p id="pattern">123-456-7890</p>
+            </div>
+
+            <div id="gameButtonArea">
+              <button
+                id="button1"
+                onclick="guess(1)"
+                onmousedown="startTone(1)"
+                onmouseup="stopTone()"
+              >
+                1
+              </button>
+              <button
+                id="button2"
+                onclick="guess(2)"
+                onmousedown="startTone(2)"
+                onmouseup="stopTone()"
+              >
+                2
+              </button>
+              <button
+                id="button3"
+                onclick="guess(3)"
+                onmousedown="startTone(3)"
+                onmouseup="stopTone()"
+              >
+                3
+              </button>
+              <button
+                id="button4"
+                onclick="guess(4)"
+                onmousedown="startTone(4)"
+                onmouseup="stopTone()"
+              >
+                4
+              </button>
+              <button
+                id="button5"
+                onclick="guess(5)"
+                onmousedown="startTone(5)"
+                onmouseup="stopTone()"
+              >
+                5
+              </button>
+              <button
+                id="button6"
+                onclick="guess(6)"
+                onmousedown="startTone(6)"
+                onmouseup="stopTone()"
+              >
+                6
+              </button>
+              <button
+                id="button7"
+                onclick="guess(7)"
+                onmousedown="startTone(7)"
+                onmouseup="stopTone()"
+              >
+                7
+              </button>
+              <button
+                id="button8"
+                onclick="guess(8)"
+                onmousedown="startTone(8)"
+                onmouseup="stopTone()"
+              >
+                8
+              </button>
+              <button
+                id="button9"
+                onclick="guess(9)"
+                onmousedown="startTone(9)"
+                onmouseup="stopTone()"
+              >
+                9
+              </button>
+              <button
+                id="button10"
+                onclick="guess(10)"
+                onmousedown="startTone(10)"
+                onmouseup="stopTone()"
+              >
+                *
+              </button>
+              <button
+                id="button0"
+                onclick="guess(0)"
+                onmousedown="startTone(0)"
+                onmouseup="stopTone()"
+              >
+                0
+              </button>
+              <button
+                id="button12"
+                onclick="guess(12)"
+                onmousedown="startTone(12)"
+                onmouseup="stopTone()"
+              >
+                #
+              </button>
+            </div>
           </div>
-      
-      <div class="opening">
-        <div class="opening-inner">
         </div>
       </div>
-    </div>
-  </div>
-  <div class="foot">
-    <div class="inset"></div>
-    <div class="cable-container">
-      <div class="cable-hole"></div>
-    </div>
-  </div>
-</div>
-          </div>
-        </div>
-      
-        
-        </div>
     </div>
 
- 
-    <footer class="footer">
-      Made by <a href="https://joycejiang.space">Joyce Jiang</a> with love, for the CodePath Prework.
-    </footer>
+    <div id="dock-container">
+      <ul>
+        <li>
+          <span>instructions</span>
+          <div class="imagepic">
+            <img
+              src="https://cdn.glitch.global/5aacfbc5-4c63-45f1-864c-44fe76d4c111/globe.png?v=1648659324672"
+            />
+          </div>
+        </li>
+        <li>
+          <button id="startBtn" onclick="startGame()">START</button>
+
+          <button id="stopBtn" class="hidden" onclick="stopGame()">STOP</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="popup">
+      <div class="titlebar">
+        <div class="buttons">
+          <div class="close">
+            <a class="closebutton"
+              ><span><strong>x</strong></span></a
+            >
+            <!-- close button link -->
+          </div>
+          <div class="minimize">
+            <a class="minimizebutton" href="#"
+              ><span><strong>–</strong></span></a
+            >
+            <!-- minimize button link -->
+          </div>
+          <div class="zoom">
+            <a class="zoombutton" href="#"
+              ><span><strong>+</strong></span></a
+            >
+            <!-- zoom button link -->
+          </div>
+        </div>
+        instructions.more<!-- window title -->
+      </div>
+
+      <!-- ©2015 Johannes Jakob
+     Made with <3 in Germany -->
+
+      <div class="tabcontent">
+        <h1>phone number memory game</h1>
+        <p>
+          <i>version of the
+          <a href="https://www.youtube.com/watch?v=vLi1qnRmpe4" target="_blank"
+            >light and sound memory game</a
+            ></i>
+        </p>
+
+        <p>
+          this game will test your memory with both auditory and visual
+          segmants. to play, press start and repeat back the pattern.
+        </p>
+
+        <p>
+          best viewed on desktop
+        </p>
+
+        <p>
+          <a href="https://light-small-digit.glitch.me/" target="_blank"
+            ><b>v.1</b></a
+          >
+        </p>
+        <br><br>
+        <p>
+          Made by <a href="https://joycejiang.space">Joyce Jiang</a> with love,
+          for the CodePath Prework.
+        </p>
+        <small>to close this tab, click the red top left button. to click for instructions again, click the globe icon.</small>
+      </div>
+
+      <!-- window content -->
+    </div>
   </body>
 </html>
