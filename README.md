@@ -1,7 +1,7 @@
-# light-sound-memory-game
-this game will test your memory with both auditory and visual segments (codepath prework project)
+# Memory Game
 
-# Pre-work - *Memory Game*
+### Objective
+This game will test your memory with both auditory and visual segments (codepath prework project)
 
 **Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
